@@ -12,6 +12,7 @@ Neris
 기타 멀웨어: Rbot, Virut, Murlo, SIS.ay
 
 사용한 데이터 출처
+
 https://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html
 
 # 개발환경
