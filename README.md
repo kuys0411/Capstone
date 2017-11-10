@@ -16,11 +16,11 @@ Neris
 기타 멀웨어: Rbot, Virut, Murlo, SIS.ay
 
 # 개발환경
-구현언어 및 IDE: Pyhton (Spyder)
+-구현언어 및 IDE: Pyhton (Spyder)
 
-라이브러리: pandas, numpy
+-라이브러리: pandas, numpy
 
-프레임워크
+-프레임워크
 
 keras - https://keras.io/
 
