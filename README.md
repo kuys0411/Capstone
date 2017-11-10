@@ -18,8 +18,9 @@ Neris
 # 개발환경
 구현언어 및 IDE: Pyhton (Spyder)
 라이브러리: pandas, numpy
-프레임워크: keras - https://keras.io/
-	   Scikit-learn -  http://scikit-learn.org/stable/
+프레임워크
+keras - https://keras.io/
+Scikit-learn -  http://scikit-learn.org/stable/
 
 # Keras 특징
 1. 직관적인 API 인터페이스
