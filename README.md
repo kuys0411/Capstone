@@ -22,6 +22,7 @@ Neris
 
 프레임워크
 keras - https://keras.io/
+
 Scikit-learn -  http://scikit-learn.org/stable/
 
 # Keras 특징
