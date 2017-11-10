@@ -38,7 +38,7 @@ https://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-
 4. Destination Port
 5. Protocol
 
-추출되는 Feature 40 목록
+Netmate에 의해 추출되는 Feature 40개 목록
 https://github.com/DanielArndt/flowtbag/wiki/features
 
 # CNN(Convolution Neural Network)
