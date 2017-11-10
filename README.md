@@ -3,18 +3,6 @@
 # 프로젝트 목표
 머신러닝 기술을 보안에도 적용할 수 있다는 것을 제시해준다. 멀웨어를 분류할 수 있는 머신러닝 모델을 설계함으로써 최소한의 인력으로 비정상 패킷을 분류할 수 있게한다. 
 
-# 주로 사용한 Malware Sample
-Neris 
--사용자가 모르는 사이에 패킷 송수신이 발생
-1. SPAM을 송신
-2. Click-fraud (광고서비스 자동 클릭하여 조회수를 높이는 기능)
-
-기타 멀웨어: Rbot, Virut, Murlo, SIS.ay
-
-# 사용한 데이터 출처
-
-https://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html
-
 # 개발환경
 -구현언어 및 IDE: Pyhton (Spyder)
 
@@ -31,15 +19,26 @@ Scikit-learn -  http://scikit-learn.org/stable/
 2. 단순화, 모듈화
 3. 다양한 딥러닝 프레임워크와의 쉬운 연동
 
+# 주로 사용한 Malware Sample
+Neris 
+-사용자가 모르는 사이에 패킷 송수신이 발생
+1. SPAM을 송신
+2. Click-fraud (광고서비스 자동 클릭하여 조회수를 높이는 기능)
+
+기타 멀웨어: Rbot, Virut, Murlo, SIS.ay
+
+# 사용한 데이터 출처
+https://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html
+
 # Netmate tool
-1 Flow = TCP/UDP Packet을 5-tuple을 기준으로 묶 40 Feature 생성
+1 Flow = TCP/UDP Packet을 5-tuple을 기준으로 묶고 40개의 Feature 생성(.CSV)
 1. Source IP
 2. Source Port
 3. Destionation IP
 4. Destination Port
 5. Protocol
 
-추출되는 Feature 목록
+추출되는 Feature 40 목록
 https://github.com/DanielArndt/flowtbag/wiki/features
 
 # CNN(Convolution Neural Network)
