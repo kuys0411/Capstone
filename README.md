@@ -21,6 +21,7 @@ Neris
 라이브러리: pandas, numpy
 
 프레임워크
+
 keras - https://keras.io/
 
 Scikit-learn -  http://scikit-learn.org/stable/
