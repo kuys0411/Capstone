@@ -54,8 +54,9 @@ Scikit-learn -  http://scikit-learn.org/stable/
 5. Protocol
 
 # CNN(Convolution Neural Network)
-: 딥러닝 알고리즘으로 주로 영상, 음성인식 분야에서 사용되나 flow당 feature값을 이미지로 가정하고 진행함
-  (선별한 Feature 35개를 5x7 이미지로 가정하고 Convolutional Layer를 적용)
+딥러닝 알고리즘으로 주로 영상, 음성인식 분야에서 사용되나 flow당 feature값을 이미지로 가정하고 진행함
+
+(선별한 Feature 35개를 5x7 이미지로 가정하고 Convolutional Layer를 적용)
 
 # 사용한 데이터 출처
 https://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html
